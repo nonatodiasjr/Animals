@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
     <title>Animals</title>
 </head>
 
@@ -14,12 +22,12 @@
             <li><a href="#animals">Animais</a></li>
             <li><a href="#faq">Faq</a></li>
             <li><a href="#contact">Contato</a></li>
-            <li><a href="/"></a>Dev ➞</li>
+            <li class="dev"><a href="index.html">Dev →</a></li>
         </ul>
     </nav>
     <section class="grid-section animals" id="animals">
         <h1 class="title">Fantastic Animals</h1>
-        <ul>
+        <ul class="list-animals">
             <li>
                 <img src="./img/imagem1.jpg" alt="first Animal">
             </li>
@@ -39,7 +47,7 @@
                 <img src="./img/imagem6.jpg" alt="sixth Animal">
             </li>
         </ul>
-        <div class="animals-description">
+        <div class="animals-descriptions">
             <section>
                 <h2>Fox</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel deserunt ab quidem veritatis possimus
@@ -151,30 +159,30 @@
         </div>
     </section>
     <section class="grid-section faq" id="Faq">
-        <h1>FAQ</h1>
-        <dl>
+        <h1 class="title">FAQ</h1>
+        <dl class="faq-list">
             <dt>How old are the animals?</dt>
             <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis reprehenderit aperiam aliquid eveniet
                 quis consectetur.</dd>
-        
-        
+
+
             <dt>Why are they fantastic?</dt>
             <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis reprehenderit aperiam aliquid eveniet
                 quis consectetur.</dd>
-        
-        
+
+
             <dt>What's the difference</dt>
             <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis reprehenderit aperiam aliquid eveniet
                 quis consectetur.</dd>
-        
-        
+
+
             <dt>How to protect them</dt>
             <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis reprehenderit aperiam aliquid eveniet
                 quis consectetur.</dd>
         </dl>
-        </section>
-        <section class="grid-section contact" i="contact">Contact</section>
-        <h1>Contact</h1>
+    </section>
+    <section class="grid-section contact" id="contact">
+        <h1 class="title">Contact</h1>
         <div class="maps">
             <img src="./img/mapa.png" alt="maps">
         </div>
@@ -184,11 +192,14 @@
             <li>Rua X, 99, bairro Y</li>
             <li>Feira de Santana-Ba</li>
         </ul>
+    </section>
 
-        <footer class="copy">Todos os direitos reservados.</footer>
+    <footer class="copy">
+        <p>Todos os direitos reservados.</p>
+    </footer>
 
 
-        <script src="main.js"></script>
-        </body>
-        
-        </html>
+    <script src="main.js"></script>
+</body>
+
+</html>
